@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/vegetablesFragment"
+        android:name="com.example.myshoppingcart.VegetablesFragment"
+        android:label="@string/fruits_vegetables" >
+        <action
+            android:id="@+id/action_vegetablesFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodFragment"
+        android:name="com.example.myshoppingcart.FoodFragment"
+        android:label="@string/fresh_food"
+        tools:layout="@layout/fragment_food" >
+        <action
+            android:id="@+id/action_foodFragment_to_vegetablesFragment"
+            app:destination="@id/vegetablesFragment" />
+        <action
+            android:id="@+id/action_foodFragment_to_breadFragment"
+            app:destination="@id/breadFragment" />
+        <action
+            android:id="@+id/action_foodFragment_to_fishFragment"
+            app:destination="@id/fishFragment" />
+        <action
+            android:id="@+id/action_foodFragment_to_meatFragment"
+            app:destination="@id/meatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.myshoppingcart.StartFragment"
+        android:label="@string/start" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.myshoppingcart.CartFragment"
+        android:label="@string/cart"
+        tools:layout="@layout/fragment_cart" >
+        <argument
+            android:name="product"
+            app:argType="string" />
+        <argument
+            android:name="price"
+            app:argType="float" />
+        <argument
+            android:name="amount"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/breadFragment"
+        android:name="com.example.myshoppingcart.BreadFragment"
+        android:label="@string/bread"
+        tools:layout="@layout/fragment_bread" >
+        <action
+            android:id="@+id/action_breadFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fishFragment"
+        android:name="com.example.myshoppingcart.FishFragment"
+        android:label="@string/fish"
+        tools:layout="@layout/fragment_fish" >
+        <action
+            android:id="@+id/action_fishFragment_to_cartFragment"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/meatFragment"
+        android:name="com.example.myshoppingcart.MeatFragment"
+        android:label="@string/meat"
+        tools:layout="@layout/fragment_meat" >
+        <action
+            android:id="@+id/action_meatFragment_to_cartFragment2"
+            app:destination="@id/cartFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.example.myshoppingcart.SupportFragment"
+        android:label="SupportFragment" />
+</navigation>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Shopping Cart</string>
+    <string name="button_add">Add to cart</string>
+    <string name="fruits_vegetables">Fruits and vegetables</string>
+    <string name="bread">Bread</string>
+    <string name="meat">Meat</string>
+    <string name="fish">Fish</string>
+    <string name="start">Start</string>
+    <string name="fresh_food">Fresh Food</string>
+    <string name="cart">Shopping Cart</string>
+    <string name="support">Help</string>
+    <string name="message">It has been added succesfully: </string>
+    <string name="warning">No amount has been selected!</string>
+    <string name="support_content">My Shopping Cart App version 1.0
+    For further information and support, please contact us at the following email:
+    myshoppingcart@apppmdm.com</string>
+    <string name="amount1">1 kg</string>
+    <string name="amount2">2 kg</string>
+    <string name="amount3">3 kg</string>
+    <string name="amount4">1 unit</string>
+    <string name="amount5">2 units</string>
+    <string name="amount6">3 units</string>
+    <string-array name="vegetables_types">
+        <item>Tomatoes</item>
+        <item>Onions </item>
+        <item>Leeks</item>
+        <item>Garlic</item>
+    </string-array>
+    <string name="tomato">Tomatoes</string>
+    <string name="onions">Onions</string>
+    <string name="leeks">Leeks</string>
+    <string name="garlic">Garlic</string>
+    <string-array name="bread_types">
+        <item>Wheat bread</item>
+        <item>Rye bread</item>
+        <item>Hamburger bun</item>
+        <item>White bread</item>
+    </string-array>
+    <string name="wheat_bread">Wheat bread</string>
+    <string name="rye_bread">Rye bread</string>
+    <string name="hamburguer_bun">Hamburger bun</string>
+    <string name="white_bread">White bread</string>
+    <string-array name="meat_types">
+        <item>Beef</item>
+        <item>Pork</item>
+        <item>Chicken</item>
+        <item>Lamb</item>
+    </string-array>
+    <string name="beef">Beef</string>
+    <string name="pork">Pork</string>
+    <string name="chicken">Chicken</string>
+    <string name="lamb">Lamb</string>
+    <string-array name="fish_types">
+        <item>Sardines</item>
+        <item>Tuna</item>
+        <item>Salmon</item>
+        <item>Sea bass</item>
+    </string-array>
+    <string name="sardines">Sardines</string>
+    <string name="tuna">Tuna</string>
+    <string name="salmon">Salmon</string>
+    <string name="sea_bass">Sea bass</string>
+    <string name="title_veget_prices">    <u>PRICE LIST</u></string>
+    <string name="vegetables_prices" >
+        Tomatoes 2,95€/kg\n\n
+
+        Onions 3,45€/kg\n\n
+
+        Leeks 3,95€/kg\n\n
+
+        Garlic 1,65€/kg
+    </string>
+    <string name="title_bread_prices">    <u>PRICE LIST</u></string>
+    <string name="bread_prices" >
+        Wheat bread 1,00€/kg\n\n
+
+        Rye bread 1,50€/kg\n\n
+
+        Hamburger bun 0,70€/kg\n\n
+
+        White bread 1,25€/kg
+    </string>
+    <string name="title_meat_prices">    <u>PRICE LIST</u></string>
+    <string name="meat_prices" >
+        Beef 9,50€/kg\n\n
+
+        Pork 7,65€/kg\n\n
+
+        Chicken 5,15€/kg\n\n
+
+        Lamb 10,75€/kg
+    </string>
+    <string name="title_fish_prices">    <u>PRICE LIST</u></string>
+    <string name="fish_prices" >
+        Sardines 5,50€/kg\n\n
+
+        Tuna 7,95€/kg\n\n
+
+        Salmon 14,95€/kg\n\n
+
+        Sea bass 21,90€/kg
+    </string>
+</resources>
+
