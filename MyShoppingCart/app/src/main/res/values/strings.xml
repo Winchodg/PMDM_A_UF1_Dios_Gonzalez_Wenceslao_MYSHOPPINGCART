@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">My Shopping Cart</string>
+    <string name="button_add">Añadir a la cesta</string>
+    <string name="fruits_vegetables">Frutas y verduras</string>
+    <string name="bread">Pan</string>
+    <string name="meat">Carnes</string>
+    <string name="fish">Pescado</string>
+    <string name="start">Inicio</string>
+    <string name="fresh_food">Productos Frescos</string>
+    <string name="cart">Carro de la Compra</string>
+    <string name="support">Ayuda</string>
+    <string name="message">Se ha añadido correctamente al carrito: </string>
+    <string name="warning">¡No ha seleccionado ninguna cantidad!</string>
+    <string name="support_content">Versión My Shopping Cart App 1.0
+    Para más información o ayuda, por favor contacta con nosotros en el siguiente email:
+    myshoppingcart@apppmdm.com</string>
+    <string name="amount1">1 kg</string>
+    <string name="amount2">2 kg</string>
+    <string name="amount3">3 kg</string>
+    <string name="amount4">1 ud</string>
+    <string name="amount5">2 ud</string>
+    <string name="amount6">3 ud</string>
+    <string-array name="vegetables_types">
+        <item>Tomates</item>
+        <item>Cebollas</item>
+        <item>Puerros</item>
+        <item>Ajos</item>
+    </string-array>
+    <string name="tomato">Tomate</string>
+    <string name="onions">Cebollas</string>
+    <string name="leeks">Puerros</string>
+    <string name="garlic">Ajos</string>
+    <string-array name="bread_types">
+        <item>Pan de trigo</item>
+        <item>Pan de centeno</item>
+        <item>Bollo de hamburguesa</item>
+        <item>Pan blanco</item>
+    </string-array>
+    <string name="wheat_bread">Pan de trigo</string>
+    <string name="rye_bread">Pan de centeno</string>
+    <string name="hamburguer_bun">Bollo de hamburguesa</string>
+    <string name="white_bread">Pan blanco</string>
+    <string-array name="meat_types">
+        <item>Ternera</item>
+        <item>Cerdo</item>
+        <item>Pollo</item>
+        <item>Cordero</item>
+    </string-array>
+    <string name="beef">Ternera</string>
+    <string name="pork">Cerdo</string>
+    <string name="chicken">Pollo</string>
+    <string name="lamb">Cordero</string>
+    <string-array name="fish_types">
+        <item>Sardinas</item>
+        <item>Atún</item>
+        <item>Salmón</item>
+        <item>Lubina</item>
+    </string-array>
+    <string name="sardines">Sardinas</string>
+    <string name="tuna">Atún</string>
+    <string name="salmon">Salmón</string>
+    <string name="sea_bass">Lubina</string>
+    <string name="title_veget_prices">    <u>LISTA DE PRECIOS</u></string>
+    <string name="vegetables_prices">
+        Tomates 2,95€/kg\n\n
+
+        Cebollas 3,45€/kg\n\n
+
+        Puerros 3,95€/kg\n\n
+
+        Ajo 1,65€/kg
+    </string>
+    <string name="title_bread_prices">    <u>LISTA DE PRECIOS</u></string>
+    <string name="bread_prices">
+        Pan de trigo 1,00€/kg\n\n
+
+        Pan de centeno 1,50€/kg\n\n
+
+        Bollo de hamburguesa 0,70€/kg\n\n
+
+        Pan blanco 1,25€/kg
+    </string>
+    <string name="title_meat_prices">    <u>LISTA DE PRECIOS</u></string>
+    <string name="meat_prices">
+        Vacuno 9,50€/kg\n\n
+
+        Porcino 7,65€/kg\n\n
+
+        Pollo 5,15€/kg\n\n
+
+        Cordero 10,75€/kg
+    </string>
+    <string name="title_fish_prices">    <u>LISTA DE PRECIOS</u></string>
+    <string name="fish_prices">
+        Sardinas 5,50€/kg\n\n
+
+        Atún 7,95€/kg\n\n
+
+        Salmón 14,95€/kg\n\n
+
+        Lubina 21,90€/kg
+    </string>
+</resources>

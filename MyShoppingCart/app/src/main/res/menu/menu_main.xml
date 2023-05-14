@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/foodFragment"
+            android:icon="@drawable/start_shop"
+            android:title="@string/start"
+            app:showAsAction="always" />
+    </group>
+    <item android:title="@string/support">
+        <menu>
+            <item
+                android:id="@+id/supportFragment"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="@string/support"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+
+
+
+</menu>
